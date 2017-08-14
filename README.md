@@ -1,0 +1,2 @@
+# tedxnitkurukshetra-frontend
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e5c3bd82457c4548990ae0b5d7817cb5)](https://www.codacy.com/app/malikanshul29/tedxnitkurukshetra-frontend?utm_source=github.com&utm_medium=referral&utm_content=gawdsnitkkr/tedxnitkurukshetra-frontend&utm_campaign=badger)
