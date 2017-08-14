@@ -1,0 +1,45 @@
+@font-face {
+	font-family: hLight;
+	src: url(HelveticaNeue.ttf);
+}
+@font-face {
+	font-family: hBold;
+	src: url(HelveticaBold.ttf);	
+}
+body, html {
+	width: 100%;
+	overflow-x: hidden;
+	margin: 0px;
+	padding: 0px;
+	color: #fff;
+	font-family: hLight;
+	text-align: center;
+	background: #ff2b06;
+}
+span {
+	transition: all 0.5s ease;
+}
+small {
+	color: #fff !important;
+	margin-left: 20px;
+}
+ul {
+	list-style-type: none;
+}
+li {
+	display: inline;
+	margin: 20px;
+}
+#main_info_cont, #coming_soon {
+	opacity: 0;
+}
+.jumbotron {
+	min-height: 100vh;
+	background: transparent;
+}
+.transformation {
+	opacity: 0;
+}
+h1 {
+	font-family: hBold;
+}
