@@ -14,10 +14,20 @@ body, html {
 	color: #fff;
 	font-family: hLight;
 	text-align: center;
-	background: #ff2b06;
 }
 span {
 	transition: all 0.5s ease;
+}
+#splash {
+	background: #ff2b06;
+	width: 10px;
+	height: 10px;
+	transform: translate(50vw, 50vh);
+	transform-origin: 50% 50%;
+	border-radius: 100%;
+}
+.hidden {
+	display: none;
 }
 small {
 	color: #fff !important;
