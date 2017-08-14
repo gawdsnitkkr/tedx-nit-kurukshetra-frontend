@@ -64,6 +64,9 @@ h1 {
     #main_info_cont {
     	margin-top: 50px !important; 
     }
+    small {
+    	display: block;
+    }
     ul {
     	margin-top: 40px !important;	
     }
