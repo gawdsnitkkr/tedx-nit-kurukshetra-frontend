@@ -35,10 +35,11 @@ small {
 }
 ul {
 	list-style-type: none;
+	padding: 0px;
 }
 li {
 	display: inline;
-	margin: 20px;
+	margin: 10px;
 }
 #main_info_cont, #coming_soon {
 	opacity: 0;
@@ -52,4 +53,21 @@ li {
 }
 h1 {
 	font-family: hBold;
+}
+
+@media only screen and (max-width: 1000px) {
+    span {
+    	margin-left: -10px;
+    }
+}
+@media only screen and (max-width: 325px) {
+    #main_info_cont {
+    	margin-top: 50px !important; 
+    }
+    ul {
+    	margin-top: 40px !important;	
+    }
+    footer {
+    	margin-top: 100px !important;	
+    }
 }

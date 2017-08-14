@@ -1,19 +1,15 @@
 
 function splittext() {
-	TweenMax.to('#main_info_cont', 1, 
-	{
+	TweenMax.to('#main_info_cont', 1, {
 		opacity: 0,
 		delay: 2.5
 	}
-	)
-	;
-	TweenMax.to('#coming_soon', 0.5, 
-	{
+	);
+	TweenMax.to('#coming_soon', 0.5, {
 		opacity: 1,
 		delay: 2.5
 	}
-	)
-	;
+	);
 	var i = -10;
 	var interval = setInterval(
 		function() {
@@ -34,19 +30,15 @@ function splittext() {
 function start() {
 	$('body').css('background', '#ff2b06');
 	$('#splash').addClass('hidden');
-	TweenMax.to('#coming_soon', 0.5, 
-	{
+	TweenMax.to('#coming_soon', 0.5, {
 		opacity: 0
 	}
-	)
-	;
-	TweenMax.to('#main_info_cont', 1, 
-	{
+	);
+	TweenMax.to('#main_info_cont', 1, {
 		opacity: 1,
 		onComplete: splittext
 	}
-	)
-	;
+	);
 }
 
 function full_splash() {
