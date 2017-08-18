@@ -46,6 +46,10 @@ li {
 #main_info_cont, #coming_soon {
 	opacity: 0;
 }
+#main_info_cont {
+	margin-top: 30px;
+	height: 200px;
+}
 .jumbotron {
 	min-height: 100vh;
 	background: transparent;
@@ -67,7 +71,8 @@ h1 {
 }
 @media only screen and (max-width: 325px) {
     #main_info_cont {
-    	margin-top: 50px !important; 
+    	margin-top: 50px !important;
+    	height: 128px; 
     }
     span {
     	font-size: 2rem;
