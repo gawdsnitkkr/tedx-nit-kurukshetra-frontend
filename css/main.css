@@ -79,6 +79,10 @@ h1 {
     	margin-top: 40px !important;	
     }
     footer {
+    	font-size: 1rem;
     	margin-top: 100px !important;	
+    }
+    #logo {
+    	width: 96px;
     }
 }
