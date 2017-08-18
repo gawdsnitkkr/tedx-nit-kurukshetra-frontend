@@ -67,7 +67,12 @@ h1 {
 	width: 128px;
 }
 @media only screen and (max-width: 1000px) {
-    
+    #main_info_cont {
+    	height: 110px; 
+    }
+    span {
+    	font-size: 2.5rem;
+    }
 }
 @media only screen and (max-width: 325px) {
     #main_info_cont {
