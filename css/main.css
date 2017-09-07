@@ -2,7 +2,7 @@
 	font-family: hLight;
 	src: url(HelveticaNeue.ttf);
 }
-body. html {
+body, html {
 	width: 100%;
 	overflow-y: hidden;
 	margin: 0px;
@@ -25,6 +25,10 @@ body. html {
 *:focus {
 	outline: none !important;
 }
+.jumbotron {
+    background: transparent;
+    color: #ffffff;
+}
 
 #home, #speakers, #events, #aboutUs {
 	position: fixed;
@@ -37,18 +41,39 @@ body. html {
 #home {
 	background: #000;
 }
+#home > #tedx_logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bolder;
+}
+.blue_circle, .red_circle, .yellow_circle {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    z-index: -100;
+    border-radius: 100%;
+    background: rgba(0, 234, 255, 0.6);
+}
+.red_circle {
+    background: rgba(255, 24, 24, 0.55);
+}
+.yellow_circle {
+    background: rgba(255, 255, 80, 0.47);
+}
 
 #speakers {
 	background: red;
-	transform: rotateY(90deg);
+    display: none;
 }
 
 #events {
 	background: green;
-	transform: rotateY(90deg);
+    display: none;
 }
 
 #aboutUs {
 	background: yellow;
-	transform: rotateY(90deg); 
+    display: none;
 }
