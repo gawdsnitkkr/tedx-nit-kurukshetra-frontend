@@ -11,88 +11,49 @@ body, html {
 	overflow-x: hidden;
 	margin: 0px;
 	padding: 0px;
-	color: #fff;
 	font-family: hLight;
 	text-align: center;
-	overflow: hidden;
-}
-span {
-	transition: all 0.18s ease;
-	font-size: 3.5rem;
-}
-#splash {
-	background: black;
-	width: 10px;
-	height: 10px;
-	transform: translate(50vw, 50vh);
-	transform-origin: 50% 50%;
-	border-radius: 100%;
-}
-.hidden {
-	display: none;
-}
-small {
-	color: #fff !important;
-	margin-left: 20px;
-}
-ul {
-	list-style-type: none;
-	padding: 0px;
-}
-li {
-	display: inline;
-	margin: 10px;
-}
-#main_info_cont, #coming_soon {
-	opacity: 0;
-}
-#main_info_cont {
-	margin-top: 30px;
-	height: 200px;
 }
 .jumbotron {
-	min-height: 100vh;
-	background: transparent;
-}
-.transformation_light {
-	color: rgba(230, 43, 30, 0.5);
-}
-.transformation {
-	color: rgba(230, 43, 30, 1);	
+    background: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 h1 {
-	font-family: hBold;
+    font-family: hBold;
+    font-size: 10rem !important;
+    color: #e62b1e !important;
 }
-#logo {
-	width: 128px;
+h2 {
+    font-family: hBold;
+    font-size: 5rem;
+    position: relative;
+    top: -15px;
 }
-@media only screen and (max-width: 1000px) {
-    #main_info_cont {
-    	height: 110px; 
-    }
-    span {
-    	font-size: 2.5rem;
-    }
+h1 > small {
+    position: relative;
+    top: -35px;
+    color: inherit;
 }
-@media only screen and (max-width: 325px) {
-    #main_info_cont {
-    	margin-top: 50px !important;
-    	height: 128px; 
-    }
-    span {
-    	font-size: 2rem;
-    }
-    small {
-    	display: block;
-    }
-    ul {
-    	margin-top: 40px !important;	
-    }
-    footer {
-    	font-size: 1rem;
-    	margin-top: 100px !important;	
-    }
-    #logo {
-    	width: 96px;
-    }
+#college-name {
+    transform-origin: -50% 0px;
+    transform: rotateX(-90deg);
+}
+.social-icons-list {
+    list-style-type: none;
+    padding: 0px;
+    position: relative;
+    top: 45px;
+}
+span {
+    position: relative;
+}
+.social-icons { 
+    display: inline;
+    margin-right: 25px;
+}
+.social-icons > img {
+    width: 42px;
 }
